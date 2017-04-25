@@ -1,1 +1,11 @@
-/* Empty. Add your own CSS if you like */
+.center-content.scroll-content {
+  display: table !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin-top: 0px;
+}
+.center-content .scroll {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
