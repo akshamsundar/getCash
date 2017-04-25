@@ -195,6 +195,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         templateUrl: 'templates/terms.html'
       }
     }
+  })
+
+  .state('recharge', {
+    url: '/recharge',
+        templateUrl: 'templates/recharge.html',
+        controller: ''
   });
 
 

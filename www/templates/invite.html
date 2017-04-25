@@ -1,16 +1,32 @@
 <ion-view view-title="Invite and Earn">
   <ion-content>
-    <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
-        <img ng-src="{{chat.face}}">
-        <h2>{{chat.name}}</h2>
-        <p>{{chat.lastText}}</p>
-        <i class="icon ion-chevron-right icon-accessory"></i>
+    
+    <div class="card">
+      
+        <div class="text-center">
+          <i class="ion-help-circled" style="font-size:50px;"></i>
+           <p class="padding">REFER FRIENDS & GET RS.111 PER EACH REFERAL</p>
+             <lable style="font-size:10px">Also 10% commision on their earning forever</label>
+        
+      </div>
+    </div>
 
-        <ion-option-button class="button-assertive" ng-click="remove(chat)">
-          Delete
-        </ion-option-button>
-      </ion-item>
-    </ion-list>
+      <div class="card">
+          <lable style="font-size:10px;" class="padding">Tip : share on whatsapp and facebook groups for better results</label>
+        
+          <button class="button button-full button-balanced icon-left ion-social-whatsapp">
+          Share On Whatsapp
+        </button>
+     
+         <button class="button button-full button-positive icon-left ion-social-facebook">
+             Share On Facebook
+        </button>
+  
+          <button class="button button-full button-calm icon-left ion-chatbubble-working">
+               Share On Messenger
+         </button>
+       
+      </div>
+
   </ion-content>
 </ion-view>
